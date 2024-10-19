@@ -9,5 +9,10 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "packageManager": "pnpm@9.12.2+sha256.2ef6e547b0b07d841d605240dce4d635677831148cd30f6d564b8f4f928f73d2"
+  "packageManager": "pnpm@9.12.2+sha256.2ef6e547b0b07d841d605240dce4d635677831148cd30f6d564b8f4f928f73d2",
+  "devDependencies": {
+    "@eslint/js": "^9.13.0",
+    "eslint": "^9.13.0",
+    "globals": "^15.11.0"
+  }
 }

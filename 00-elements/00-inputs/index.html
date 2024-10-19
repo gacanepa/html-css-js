@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Inputs</title>
+  <link rel="stylesheet" href="inputs.css">
+  <script src="inputs.js" type="module" defer></script>
+</head>
+  <body>
+    <div class="input">
+      <label for="input-text">Text</label>
+      <input
+        type="text"
+        id="input-text"
+        placeholder="Enter text"
+        name="input-text"
+        minlength="3"
+        maxlength="15"
+        size="30"
+      >
+      <span class="error" id="input-text-error"></span>
+    </div>
+    <div class="input">
+      <label for="input-list">List</label>
+      <input
+        list="nba-teams"
+        id="nba-team-choice"
+        placeholder="Choose an NBA team or enter a new one" name="nba-team-choice"
+        size="30"
+      />
+      <datalist id="nba-teams">
+        <option value="Atlanta Hawks">
+        <option value="Boston Celtics">
+        <option value="Brooklyn Nets">
+        <option value="Charlotte Hornets">
+        <option value="Chicago Bulls">
+        <option value="Cleveland Cavaliers">
+        <option value="Dallas Mavericks">
+        <option value="Denver Nuggets">
+        <option value="Detroit Pistons">
+        <option value="Golden State Warriors">
+        <option value="Houston Rockets">
+        <option value="Indiana Pacers">
+        <option value="Los Angeles Clippers">
+        <option value="Los Angeles Lakers">
+        <option value="Memphis Grizzlies">
+        <option value="Miami Heat">
+        <option value="Milwaukee Bucks">
+        <option value="Minnesota Timberwolves">
+        <option value="New Orleans Pelicans">
+        <option value="New York Knicks">
+        <option value="Oklahoma City Thunder">
+        <option value="Orlando Magic">
+        <option value="Philadelphia 76ers">
+        <option value="Phoenix Suns">
+        <option value="Portland Trail Blazers">
+        <option value="Sacramento Kings">
+        <option value="San Antonio Spurs">
+        <option value="Toronto Raptors">
+        <option value="Utah Jazz">
+        <option value="Washington Wizards">
+      </datalist>
+    </div>
+  </body>
+</html>

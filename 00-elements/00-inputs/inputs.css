@@ -1,0 +1,8 @@
+input {
+  margin-top: 1rem;
+}
+
+.error {
+  /* color: pinkish, but approaching red */
+  color: #ff5f5f;
+}

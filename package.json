@@ -1,0 +1,16 @@
+{
+  "name": "html-css",
+  "version": "1.0.0",
+  "description": "HTML/CSS/JavaScript Projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@9.12.2+sha256.2ef6e547b0b07d841d605240dce4d635677831148cd30f6d564b8f4f928f73d2",
+  "devDependencies": {
+    "prettier": "^3.3.3"
+  }
+}
